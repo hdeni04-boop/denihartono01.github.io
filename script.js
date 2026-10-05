@@ -91,3 +91,22 @@ if (contactForm && formStatus) {
     window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
   });
 }
+
+const promoFloat = document.querySelector('#promo-float');
+const promoClose = document.querySelector('#promo-close');
+
+if (promoClose && promoFloat) {
+  promoClose.addEventListener('click', () => {
+    promoFloat.hidden = true;
+  });
+}
+
+document.querySelectorAll('.nav-drop').forEach((drop) => {
+  document.addEventListener('click', (event) => {
+    if (!drop.contains(event.target)) drop.removeAttribute('open');
+  });
+  drop.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') drop.removeAttribute('open');
+  });
+});
+
