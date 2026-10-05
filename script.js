@@ -11,6 +11,16 @@ if (currentYear) {
   currentYear.textContent = new Date().getFullYear();
 }
 
+if (window.AOS && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('aos-ready');
+  window.AOS.init({
+    duration: 700,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80,
+  });
+}
+
 if (menuToggle && siteNav) {
   const closeMenu = () => {
     menuToggle.setAttribute('aria-expanded', 'false');

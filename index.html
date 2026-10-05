@@ -7,13 +7,15 @@
   <meta name="description" content="Portfolio Deni Hartono, Web Designer dan Senior Web Analyst. Menggabungkan desain yang jelas dengan keputusan berbasis data.">
   <title>Deni Hartono — Web Designer &amp; Senior Web Analyst</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Lewati ke konten utama</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#beranda" aria-label="Deni Hartono, ke beranda">
+      <a class="brand" href="index.html" aria-label="Deni Hartono, ke beranda">
         <span class="brand-mark" aria-hidden="true">dh<span>.</span></span>
         <span class="brand-name">Deni Hartono</span>
       </a>
@@ -21,10 +23,10 @@
         <span></span><span></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
-        <a href="#tentang">Tentang</a>
-        <a href="#layanan">Layanan</a>
-        <a href="#proyek">Proyek</a>
-        <a class="nav-contact" href="#kontak">Mari ngobrol <span aria-hidden="true">↗</span></a>
+        <a href="about.html">Tentang</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="proyek.html">Proyek</a>
+        <a class="nav-contact" href="kontak.html">Mari ngobrol <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
@@ -32,7 +34,7 @@
   <main id="main">
     <section class="hero section-wrap" id="beranda" aria-labelledby="hero-title">
       <div class="container hero-grid">
-        <div class="hero-copy">
+        <div class="hero-copy" data-aos="fade-up">
           <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT DIGITAL PARTNER <span class="eyebrow-line"></span></p>
           <h1 id="hero-title">Web yang terasa <span class="text-muted">tepat.</span><br>Hasil yang <span class="text-accent">terukur.</span></h1>
           <div class="role-row" aria-label="Peran profesional">
@@ -42,13 +44,13 @@
           </div>
           <p class="hero-description">Saya Deni. Saya merancang pengalaman digital yang mudah dipahami, lalu membaca datanya untuk memastikan setiap detail benar-benar bekerja.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#proyek">Lihat portofolio <span aria-hidden="true">↘</span></a>
-            <a class="button button-quiet" href="#kontak">Hubungi saya <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="proyek.html">Lihat portofolio <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="kontak.html">Hubungi saya <span aria-hidden="true">↗</span></a>
           </div>
           <div class="hero-footnote"><span class="mono">01 / 03</span><span class="footnote-rule"></span><span>DESIGN WITH INTENTION. OPTIMIZE WITH EVIDENCE.</span></div>
         </div>
 
-        <div class="hero-visual" aria-label="Pratinjau dashboard analitik web">
+        <div class="hero-visual" aria-label="Pratinjau dashboard analitik web" data-aos="fade-up" data-aos-delay="120">
           <div class="visual-topline"><span>PERFORMANCE SNAPSHOT</span><span class="live-label"><i></i> LIVE VIEW</span></div>
           <div class="dashboard-window">
             <div class="dashboard-bar"><span class="window-dots"><i></i><i></i><i></i></span><span class="dashboard-url">studio.denihartono / overview</span><span class="dashboard-menu" aria-hidden="true">···</span></div>
@@ -68,7 +70,7 @@
       <div class="hero-grid-mark" aria-hidden="true"></div>
     </section>
 
-    <section class="intro-strip" aria-label="Ringkasan pendekatan">
+    <section class="intro-strip" aria-label="Ringkasan pendekatan" data-aos="fade-up">
       <div class="container intro-inner"><span class="intro-label">THE SWEET SPOT</span><p>Design instinct <span>×</span> analytical thinking <span>×</span> measurable impact</p><span class="intro-index mono">[ 001 — 2025 ]</span></div>
     </section>
 
@@ -77,12 +79,12 @@
         <div class="section-heading"><p class="eyebrow">01 / TENTANG SAYA</p><span class="section-aside">A PRACTICAL CREATIVE MINDSET</span></div>
         <div class="about-grid">
           <h2 class="section-title" id="about-title">Saya suka desain<br>yang <span class="text-muted">cantik.</span><br>Lebih suka yang <span class="text-accent">berfungsi.</span></h2>
-          <div class="about-copy"><p class="lead-copy">Pengalaman digital yang baik bukan kebetulan. Ia lahir dari empati pada pengguna, rasa ingin tahu pada data, dan perhatian pada detail teknis.</p><p>Saya memadukan UI/UX architecture dengan analisis data, SEO, dan web performance. Dari struktur informasi sampai metrik Core Web Vitals, setiap keputusan punya alasan dan tujuan yang jelas.</p><a class="text-link" href="#kontak">Ceritakan tantangan Anda <span aria-hidden="true">↗</span></a></div>
+          <div class="about-copy"><p class="lead-copy">Pengalaman digital yang baik bukan kebetulan. Ia lahir dari empati pada pengguna, rasa ingin tahu pada data, dan perhatian pada detail teknis.</p><p>Saya memadukan UI/UX architecture dengan analisis data, SEO, dan web performance. Dari struktur informasi sampai metrik Core Web Vitals, setiap keputusan punya alasan dan tujuan yang jelas.</p><a class="text-link" href="kontak.html">Ceritakan tantangan Anda <span aria-hidden="true">↗</span></a></div>
         </div>
         <div class="skills-grid" aria-label="Keahlian utama">
-          <article class="skill-group"><div class="skill-number mono">A / 01</div><h3>Design &amp; Experience</h3><p>Merancang alur yang intuitif dan antarmuka yang konsisten.</p><div class="skill-tags"><span>UI/UX</span><span>Information Architecture</span><span>Prototyping</span></div></article>
-          <article class="skill-group"><div class="skill-number mono">B / 02</div><h3>Data &amp; Discovery</h3><p>Mengubah perilaku pengguna menjadi arah yang bisa ditindaklanjuti.</p><div class="skill-tags"><span>Web Analytics</span><span>SEO</span><span>Conversion</span></div></article>
-          <article class="skill-group"><div class="skill-number mono">C / 03</div><h3>Performance &amp; Build</h3><p>Membangun frontend yang cepat, accessible, dan siap berkembang.</p><div class="skill-tags"><span>Core Web Vitals</span><span>Accessibility</span><span>Frontend</span></div></article>
+          <article class="skill-group" data-aos="fade-up"><div class="skill-number mono">A / 01</div><h3>Design &amp; Experience</h3><p>Merancang alur yang intuitif dan antarmuka yang konsisten.</p><div class="skill-tags"><span>UI/UX</span><span>Information Architecture</span><span>Prototyping</span></div></article>
+          <article class="skill-group" data-aos="fade-up" data-aos-delay="100"><div class="skill-number mono">B / 02</div><h3>Data &amp; Discovery</h3><p>Mengubah perilaku pengguna menjadi arah yang bisa ditindaklanjuti.</p><div class="skill-tags"><span>Web Analytics</span><span>SEO</span><span>Conversion</span></div></article>
+          <article class="skill-group" data-aos="fade-up" data-aos-delay="200"><div class="skill-number mono">C / 03</div><h3>Performance &amp; Build</h3><p>Membangun frontend yang cepat, accessible, dan siap berkembang.</p><div class="skill-tags"><span>Core Web Vitals</span><span>Accessibility</span><span>Frontend</span></div></article>
         </div>
       </div>
     </section>
@@ -92,9 +94,9 @@
         <div class="section-heading"><p class="eyebrow">02 / YANG SAYA KERJAKAN</p><span class="section-aside">THOUGHTFUL BY DESIGN. MEASURABLE BY DEFAULT.</span></div>
         <div class="services-heading"><h2 class="section-title" id="services-title">Dari ide, sampai<br><span class="text-muted">dampak nyata.</span></h2><p>Kolaborasi yang fleksibel untuk tim yang ingin menghadirkan web lebih baik, bukan sekadar lebih baru.</p></div>
         <div class="service-list">
-          <article class="service-item"><span class="service-index mono">01</span><div class="service-icon icon-green" aria-hidden="true">✳</div><div class="service-main"><h3>UI/UX Architecture</h3><p>Struktur, interaksi, dan sistem desain yang menjadikan pengalaman kompleks terasa sederhana.</p></div><span class="service-tags">RESEARCH · UX · DESIGN SYSTEM</span><span class="service-arrow" aria-hidden="true">↗</span></article>
-          <article class="service-item"><span class="service-index mono">02</span><div class="service-icon icon-cyan" aria-hidden="true">⌁</div><div class="service-main"><h3>Web Performance &amp; Analytics</h3><p>Audit teknis, setup pengukuran, dan insight untuk meningkatkan kecepatan serta konversi.</p></div><span class="service-tags">SEO · ANALYTICS · VITALS</span><span class="service-arrow" aria-hidden="true">↗</span></article>
-          <article class="service-item"><span class="service-index mono">03</span><div class="service-icon icon-yellow" aria-hidden="true">⌘</div><div class="service-main"><h3>Custom Frontend</h3><p>Implementasi responsif dengan HTML, CSS, dan JavaScript yang ringan dan mudah dirawat.</p></div><span class="service-tags">HTML · CSS · JAVASCRIPT</span><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item" data-aos="fade-up"><span class="service-index mono">01</span><div class="service-icon icon-green" aria-hidden="true">✳</div><div class="service-main"><h3>UI/UX Architecture</h3><p>Struktur, interaksi, dan sistem desain yang menjadikan pengalaman kompleks terasa sederhana.</p></div><span class="service-tags">RESEARCH · UX · DESIGN SYSTEM</span><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item" data-aos="fade-up" data-aos-delay="100"><span class="service-index mono">02</span><div class="service-icon icon-cyan" aria-hidden="true">⌁</div><div class="service-main"><h3>Web Performance &amp; Analytics</h3><p>Audit teknis, setup pengukuran, dan insight untuk meningkatkan kecepatan serta konversi.</p></div><span class="service-tags">SEO · ANALYTICS · VITALS</span><span class="service-arrow" aria-hidden="true">↗</span></article>
+          <article class="service-item" data-aos="fade-up" data-aos-delay="200"><span class="service-index mono">03</span><div class="service-icon icon-yellow" aria-hidden="true">⌘</div><div class="service-main"><h3>Custom Frontend</h3><p>Implementasi responsif dengan HTML, CSS, dan JavaScript yang ringan dan mudah dirawat.</p></div><span class="service-tags">HTML · CSS · JAVASCRIPT</span><span class="service-arrow" aria-hidden="true">↗</span></article>
         </div>
       </div>
     </section>
@@ -105,27 +107,14 @@
         <div class="projects-heading"><div><h2 class="section-title" id="projects-title">Pekerjaan yang<br><span class="text-muted">punya tujuan.</span></h2></div><p>Eksplorasi strategi, desain, dan optimasi yang menjawab kebutuhan nyata.</p></div>
         <div class="project-toolbar"><div class="filter-list" role="group" aria-label="Filter proyek"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Semua <span>04</span></button><button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button><button class="filter-button" type="button" data-filter="analytics" aria-pressed="false">Analytics</button><button class="filter-button" type="button" data-filter="frontend" aria-pressed="false">Frontend</button></div><span class="project-count mono" aria-live="polite">MENAMPILKAN 04 PROYEK</span></div>
         <div class="project-grid">
-          <article class="project-card" data-category="design frontend"><a class="project-visual visual-commerce" href="#kontak" aria-label="Diskusikan proyek Commerce Studio"><div class="mock-top"><span class="mock-brand">FORM<span>_</span></span><span>SHOP&nbsp;&nbsp; ABOUT&nbsp;&nbsp; JOURNAL</span><span class="mock-cart">BAG (0)</span></div><div class="commerce-layout"><div class="commerce-copy"><span>OBJECTS FOR EVERYDAY</span><strong>Make room<br>for <i>better.</i></strong><small>Thoughtful pieces for slower living.</small><b>EXPLORE COLLECTION ↗</b></div><div class="product-object" aria-hidden="true"><div class="vase vase-one"></div><div class="vase vase-two"></div><div class="object-sun"></div><span>01 / CERAMIC STUDY</span></div></div><span class="project-visual-index">01 — 04</span></a><div class="project-info"><div><span class="project-type">ECOMMERCE · 2025</span><h3>Form &amp; Field</h3></div><span class="project-result">+32% product engagement</span></div><p class="project-description">Pengalaman belanja editorial dengan hierarki produk yang lebih jelas.</p><div class="project-tags"><span>Design</span><span>Frontend</span></div></article>
-          <article class="project-card" data-category="analytics"><a class="project-visual visual-insights" href="#kontak" aria-label="Diskusikan proyek Insight Dashboard"><div class="insight-top"><span>northstar<span class="northstar-dot">●</span></span><span>OVERVIEW / Q3</span><span class="insight-avatar">N</span></div><div class="insight-title">Your growth,<br>in <i>focus.</i></div><div class="insight-metrics"><div><small>REVENUE</small><b>$84,290</b><em>↗ 14.8%</em></div><div><small>CONVERSION</small><b>3.42%</b><em>↗ 0.6%</em></div></div><div class="insight-chart"><div class="insight-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="insight-chart-labels"><span>JUL 01</span><span>JUL 08</span><span>JUL 15</span><span>JUL 22</span></div></div><span class="project-visual-index">02 — 04</span></a><div class="project-info"><div><span class="project-type">ANALYTICS · 2024</span><h3>Northstar Insights</h3></div><span class="project-result">Insight to action, faster</span></div><p class="project-description">Dashboard metrik bisnis yang menghubungkan tren dengan keputusan.</p><div class="project-tags"><span>Analytics</span></div></article>
-          <article class="project-card" data-category="frontend design"><a class="project-visual visual-civic" href="#kontak" aria-label="Diskusikan proyek Civic Digital"><div class="civic-nav"><span>civic<span>+</span></span><span>LAYANAN&nbsp;&nbsp;&nbsp; INFORMASI&nbsp;&nbsp;&nbsp; BANTUAN</span><span class="civic-menu">☰</span></div><div class="civic-content"><span class="civic-label">PORTAL LAYANAN WARGA</span><strong>Layanan publik,<br><i>lebih dekat.</i></strong><p>Temukan informasi dan layanan di kota Anda.</p><span class="civic-search">Cari layanan, dokumen, atau topik <b>⌕</b></span></div><div class="civic-shape civic-shape-one"></div><div class="civic-shape civic-shape-two"></div><span class="project-visual-index">03 — 04</span></a><div class="project-info"><div><span class="project-type">PUBLIC SERVICE · 2024</span><h3>Civic Digital</h3></div><span class="project-result">-41% task completion time</span></div><p class="project-description">Arsitektur informasi baru untuk akses layanan yang lebih inklusif.</p><div class="project-tags"><span>Design</span><span>Frontend</span></div></article>
-          <article class="project-card" data-category="analytics frontend"><a class="project-visual visual-speed" href="#kontak" aria-label="Diskusikan proyek Web Vitals Lab"><div class="speed-nav"><span>vitals<span>lab.</span></span><span>FIELD NOTES / 04</span><span class="speed-status"><i></i> ALL SYSTEMS GO</span></div><div class="speed-main"><div><span class="speed-label">PERFORMANCE REPORT</span><strong>Fast feels<br><i>different.</i></strong><span class="speed-link">READ THE FIELD NOTES ↗</span></div><div class="speed-score"><div class="score-ring"><span>96</span><small>PERFORMANCE</small></div><div class="score-stats"><span><i>◉</i> LCP <b>1.1s</b></span><span><i>◉</i> CLS <b>0.02</b></span><span><i>◉</i> INP <b>118ms</b></span></div></div></div><div class="speed-bottom"><span>CORE WEB VITALS</span><span>FIELD STUDY 004&nbsp;&nbsp; ↗</span></div><span class="project-visual-index">04 — 04</span></a><div class="project-info"><div><span class="project-type">WEB PERFORMANCE · 2023</span><h3>Web Vitals Lab</h3></div><span class="project-result">96 / 100 performance</span></div><p class="project-description">Audit performa yang diterjemahkan menjadi pengalaman cepat nyata.</p><div class="project-tags"><span>Analytics</span><span>Frontend</span></div></article>
+          <article class="project-card" data-category="design frontend" data-aos="fade-up"><a class="project-visual visual-commerce" href="kontak.html" aria-label="Diskusikan proyek Commerce Studio"><div class="mock-top"><span class="mock-brand">FORM<span>_</span></span><span>SHOP&nbsp;&nbsp; ABOUT&nbsp;&nbsp; JOURNAL</span><span class="mock-cart">BAG (0)</span></div><div class="commerce-layout"><div class="commerce-copy"><span>OBJECTS FOR EVERYDAY</span><strong>Make room<br>for <i>better.</i></strong><small>Thoughtful pieces for slower living.</small><b>EXPLORE COLLECTION ↗</b></div><div class="product-object" aria-hidden="true"><div class="vase vase-one"></div><div class="vase vase-two"></div><div class="object-sun"></div><span>01 / CERAMIC STUDY</span></div></div><span class="project-visual-index">01 — 04</span></a><div class="project-info"><div><span class="project-type">ECOMMERCE · 2025</span><h3>Form &amp; Field</h3></div><span class="project-result">+32% product engagement</span></div><p class="project-description">Pengalaman belanja editorial dengan hierarki produk yang lebih jelas.</p><div class="project-tags"><span>Design</span><span>Frontend</span></div></article>
+          <article class="project-card" data-category="analytics" data-aos="fade-up" data-aos-delay="100"><a class="project-visual visual-insights" href="kontak.html" aria-label="Diskusikan proyek Insight Dashboard"><div class="insight-top"><span>northstar<span class="northstar-dot">●</span></span><span>OVERVIEW / Q3</span><span class="insight-avatar">N</span></div><div class="insight-title">Your growth,<br>in <i>focus.</i></div><div class="insight-metrics"><div><small>REVENUE</small><b>$84,290</b><em>↗ 14.8%</em></div><div><small>CONVERSION</small><b>3.42%</b><em>↗ 0.6%</em></div></div><div class="insight-chart"><div class="insight-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="insight-chart-labels"><span>JUL 01</span><span>JUL 08</span><span>JUL 15</span><span>JUL 22</span></div></div><span class="project-visual-index">02 — 04</span></a><div class="project-info"><div><span class="project-type">ANALYTICS · 2024</span><h3>Northstar Insights</h3></div><span class="project-result">Insight to action, faster</span></div><p class="project-description">Dashboard metrik bisnis yang menghubungkan tren dengan keputusan.</p><div class="project-tags"><span>Analytics</span></div></article>
+          <article class="project-card" data-category="frontend design" data-aos="fade-up"><a class="project-visual visual-civic" href="kontak.html" aria-label="Diskusikan proyek Civic Digital"><div class="civic-nav"><span>civic<span>+</span></span><span>LAYANAN&nbsp;&nbsp;&nbsp; INFORMASI&nbsp;&nbsp;&nbsp; BANTUAN</span><span class="civic-menu">☰</span></div><div class="civic-content"><span class="civic-label">PORTAL LAYANAN WARGA</span><strong>Layanan publik,<br><i>lebih dekat.</i></strong><p>Temukan informasi dan layanan di kota Anda.</p><span class="civic-search">Cari layanan, dokumen, atau topik <b>⌕</b></span></div><div class="civic-shape civic-shape-one"></div><div class="civic-shape civic-shape-two"></div><span class="project-visual-index">03 — 04</span></a><div class="project-info"><div><span class="project-type">PUBLIC SERVICE · 2024</span><h3>Civic Digital</h3></div><span class="project-result">-41% task completion time</span></div><p class="project-description">Arsitektur informasi baru untuk akses layanan yang lebih inklusif.</p><div class="project-tags"><span>Design</span><span>Frontend</span></div></article>
+          <article class="project-card" data-category="analytics frontend" data-aos="fade-up" data-aos-delay="100"><a class="project-visual visual-speed" href="kontak.html" aria-label="Diskusikan proyek Web Vitals Lab"><div class="speed-nav"><span>vitals<span>lab.</span></span><span>FIELD NOTES / 04</span><span class="speed-status"><i></i> ALL SYSTEMS GO</span></div><div class="speed-main"><div><span class="speed-label">PERFORMANCE REPORT</span><strong>Fast feels<br><i>different.</i></strong><span class="speed-link">READ THE FIELD NOTES ↗</span></div><div class="speed-score"><div class="score-ring"><span>96</span><small>PERFORMANCE</small></div><div class="score-stats"><span><i>◉</i> LCP <b>1.1s</b></span><span><i>◉</i> CLS <b>0.02</b></span><span><i>◉</i> INP <b>118ms</b></span></div></div></div><div class="speed-bottom"><span>CORE WEB VITALS</span><span>FIELD STUDY 004&nbsp;&nbsp; ↗</span></div><span class="project-visual-index">04 — 04</span></a><div class="project-info"><div><span class="project-type">WEB PERFORMANCE · 2023</span><h3>Web Vitals Lab</h3></div><span class="project-result">96 / 100 performance</span></div><p class="project-description">Audit performa yang diterjemahkan menjadi pengalaman cepat nyata.</p><div class="project-tags"><span>Analytics</span><span>Frontend</span></div></article>
         </div>
       </div>
     </section>
 
-    <section class="contact-section" id="kontak" aria-labelledby="contact-title">
-      <div class="container contact-grid">
-        <div class="contact-copy"><p class="eyebrow">04 / MULAI SESUATU</p><h2 id="contact-title">Punya ide?<br><span class="text-accent">Mari bikin berarti.</span></h2><p>Bagikan sedikit konteks tentang proyek atau tantangan Anda. Kita mulai dari percakapan sederhana.</p><div class="contact-note"><span class="contact-note-mark" aria-hidden="true">↗</span><span>Setiap proyek hebat dimulai dengan pertanyaan yang tepat.</span></div></div>
-        <form class="contact-form" id="contact-form">
-          <div class="form-row"><label for="name">Nama</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Nama Anda" required></div>
-          <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="nama@email.com" required></div>
-          <div class="form-row"><label for="project-type">Apa yang bisa saya bantu?</label><select id="project-type" name="project-type" required><option value="" disabled selected>Pilih kebutuhan</option><option>UI/UX Architecture</option><option>Web Performance &amp; Analytics</option><option>Custom Frontend</option><option>Lainnya</option></select></div>
-          <div class="form-row"><label for="message">Ceritakan sedikit tentang proyek Anda</label><textarea id="message" name="message" rows="3" placeholder="Tujuan, tantangan, atau hal yang sedang Anda eksplorasi..." required></textarea></div>
-          <button class="button button-primary form-submit" type="submit">Siapkan email <span aria-hidden="true">↗</span></button>
-          <p class="form-note" id="form-status" aria-live="polite">Form ini menyiapkan draft di aplikasi email Anda; pesan tidak dikirim ke server.</p>
-        </form>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">

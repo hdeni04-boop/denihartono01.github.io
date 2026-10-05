@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0e17">
+  <meta name="description" content="Hubungi Deni Hartono untuk membicarakan proyek desain, analitik, dan pengembangan web.">
+  <title>Kontak | Deni Hartono</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Deni Hartono, ke beranda">
+        <span class="brand-mark" aria-hidden="true">dh<span>.</span></span>
+        <span class="brand-name">Deni Hartono</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <a href="about.html">Tentang</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="proyek.html">Proyek</a>
+        <a class="nav-contact is-current" href="kontak.html" aria-current="page">Mari ngobrol <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="contact-section" id="kontak" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy" data-aos="fade-up">
+          <p class="eyebrow">04 / MULAI SESUATU</p>
+          <h2 id="contact-title">Punya ide?<br><span class="text-accent">Mari bikin berarti.</span></h2>
+          <p>Bagikan sedikit konteks tentang proyek atau tantangan Anda. Kita mulai dari percakapan sederhana.</p>
+          <div class="contact-note"><span class="contact-note-mark" aria-hidden="true">↗</span><span>Setiap proyek hebat dimulai dengan pertanyaan yang tepat.</span></div>
+        </div>
+        <form class="contact-form" id="contact-form" data-aos="fade-up" data-aos-delay="120">
+          <div class="form-row"><label for="name">Nama</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Nama Anda" required></div>
+          <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="nama@email.com" required></div>
+          <div class="form-row"><label for="project-type">Apa yang bisa saya bantu?</label><select id="project-type" name="project-type" required><option value="" disabled selected>Pilih kebutuhan</option><option>UI/UX Architecture</option><option>Web Performance &amp; Analytics</option><option>Custom Frontend</option><option>Lainnya</option></select></div>
+          <div class="form-row"><label for="message">Ceritakan sedikit tentang proyek Anda</label><textarea id="message" name="message" rows="3" placeholder="Tujuan, tantangan, atau hal yang sedang Anda eksplorasi..." required></textarea></div>
+          <button class="button button-primary form-submit" type="submit">Siapkan email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-status" aria-live="polite">Form ini menyiapkan draft di aplikasi email Anda; pesan tidak dikirim ke server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">dh<span>.</span></span><span class="brand-name">Deni Hartono</span></a><p>Independent by choice. Collaborative by nature.</p><span class="footer-copy">© <span id="current-year">2025</span> DENI HARTONO</span><a class="back-top" href="#main" aria-label="Kembali ke atas">↑</a></div>
+  </footer>
+</body>
+</html>
